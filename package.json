@@ -5,8 +5,12 @@
     }
   },
   "scripts": {
+    "changelog": "lerna-changelog",
     "commitmsg": "opt --in commitmsg --exec 'validate-commit-msg'",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "danger": "danger run --verbose",
+    "license": "license-checker --csv --out docs/licenses.csv",
+    "release": "lerna publish"
   },
   "devDependencies": {
     "commitizen": "^2.9.6",
