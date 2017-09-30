@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "kentcdodds/possible-errors",
+    "kentcdodds/es6/possible-errors",
+    "kentcdodds/es6/stylistic",
+    "kentcdodds/best-practices",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 120,
+        "singleQuote": true,
+        "trailingComma": "none"
+      }
+    ],
+    "no-console": "off",
+    "complexity": "off",
+    "no-return-assign": "off",
+    "babel/object-curly-spacing": "off",
+    "babel/semi": "off"
+  }
+}
