@@ -11,8 +11,9 @@
     "build,
     "ci",
     "chore",
-    "revert"
+    "revert",
+    "WIP"
   ],
-  "warnOnFail": false,
+  "warnOnFail": true,
   "autoFix": false
 }
