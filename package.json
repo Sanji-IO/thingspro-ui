@@ -10,9 +10,11 @@
     "commit": "git-cz",
     "danger": "danger run --verbose",
     "license": "license-checker --csv --out docs/licenses.csv",
+    "precommit": "lint-staged",
     "release": "lerna publish"
   },
   "devDependencies": {
+    "codelyzer": "^3.2.1",
     "commitizen": "^2.9.6",
     "cz-lerna-changelog": "^1.2.1",
     "danger": "^2.0.0-alpha.20",
@@ -21,8 +23,10 @@
     "lerna-changelog": "^0.6.0",
     "lerna-semantic-release": "^9.1.0",
     "license-checker": "^14.0.0",
+    "lint-staged": "^4.3.0",
     "opt-cli": "^1.5.2",
     "prettier": "^1.7.4",
+    "rxjs-tslint-rules": "^3.0.3",
     "validate-commit-msg": "^2.14.0"
   }
 }
