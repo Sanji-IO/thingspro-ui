@@ -1,0 +1,24 @@
+{
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/build/**": true,
+    "**/npm/**": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.js.map": {
+      "when": "$(basename)"
+    }
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "prettier.trailingComma": "none",
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 120,
+  "prettier.typescriptEnable": ["typescript", "typescriptreact"],
+  "prettier.cssEnable": ["css", "less", "scss"],
+  "prettier.javascriptEnable": ["javascript", "javascriptreact"]
+}
