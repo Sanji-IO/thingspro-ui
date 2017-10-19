@@ -15,18 +15,14 @@
   "devDependencies": {
     "commitizen": "^2.9.6",
     "cz-lerna-changelog": "^1.2.1",
-    "danger": "^2.0.0-alpha.15",
-    "eslint": "^4.8.0",
-    "eslint-config-kentcdodds": "^13.0.0",
-    "eslint-config-prettier": "^2.6.0",
-    "eslint-plugin-prettier": "^2.3.1",
+    "danger": "^2.0.0-alpha.20",
     "husky": "^0.14.3",
     "lerna": "^2.2.0",
     "lerna-changelog": "^0.6.0",
     "lerna-semantic-release": "^9.1.0",
     "license-checker": "^14.0.0",
     "opt-cli": "^1.5.2",
-    "prettier": "^1.7.3",
+    "prettier": "^1.7.4",
     "validate-commit-msg": "^2.14.0"
   }
 }
